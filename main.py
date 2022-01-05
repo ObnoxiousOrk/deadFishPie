@@ -1,6 +1,6 @@
 num = 0
 
-commands = ["i", "d", "s", "o", "h"]
+commands = ["i", "d", "s", "o", "h", "p"]
 
 with open("code.df", "r") as file:
     f = file.read()
