@@ -22,7 +22,7 @@ def d():
 
 def s():
     global num
-    num *= 2
+    num *= num
 
 def h():
     global num
