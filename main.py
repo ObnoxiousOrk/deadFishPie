@@ -51,3 +51,5 @@ for char in code:
             o()
         case "h":
             h()
+        case "p":
+            p()
