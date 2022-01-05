@@ -6,7 +6,7 @@ with open("code.df", "r") as file:
 code = []
 
 for char in f:
-    if char not in ["i", "d", "s", "o"]:
+    if char not in ["i", "d", "s", "o", "h"]:
         continue
     code.append(char)
 
@@ -23,3 +23,5 @@ for char in code:
             num *= num
         case "o":
             print(num)
+        case "h":
+            num //= 2
